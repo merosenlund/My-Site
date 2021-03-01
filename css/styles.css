@@ -1,0 +1,56 @@
+/******************** TAG SELECTORS *******************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  background-color: #ccf2f4;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Architects Daughter', cursive;
+}
+
+
+/******************** CLASS SELECTORS *******************/
+
+.top-container {
+  background-color: #ccf2f4;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.cloud-one {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud-two {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain {
+  /* z-index: 0;
+  position: relative; */
+}
